@@ -1,0 +1,51 @@
+body {
+    font-size: 18px;
+    font-style: arial;
+}
+img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: rgb(51, 22, 22);
+    margin-bottom: 20px
+}
+.title:hover {
+    color: gray;
+}
+.title:active {
+    color:blue;
+}
+.link {
+    text-decoration: none;
+}
+.pagination a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 15px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    background-color: rgb(231, 227, 227);
+    border-radius: 5px;
+}
+.pagination {
+    display: flex; 
+    justify-content: center;
+}
+a:hover:not(.active) {
+    background-color: gray;
+}
+#active {
+    background-color: rgb(227, 255, 66);
+}
+p::selection {
+    color: lightblue;
+    background-color: black;
+}
